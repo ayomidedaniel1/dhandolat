@@ -11,7 +11,7 @@ const Navbar = () => {
   const closeMobileMenu = () => setToggleMenu(false);
 
   return (
-    <div className='flex flex-row justify-between items-center py-6 lg:py-12 pb-2 px-8 md:px-16 lg:px-20'>
+    <div className='flex flex-row justify-between items-center py-6 lg:py-12 pb-2 px-8 md:px-16 lg:px-20 mask-top'>
       <h2 className={toggleMenu ? "text-white font-normal font-roboto uppercase text-xl z-50 absolute left-8 top-9" : "text-white font-normal font-roboto uppercase text-xl"}>
         logo
       </h2>
