@@ -42,9 +42,13 @@ body {
 }
 
 .whatsapp {
-  /* width: 304px; */
-  /* height: 76px; */
+  background: rgba(150, 150, 150, 0.25);
+  box-shadow: 5px 8px 7px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(13px);
+  border-radius: 29px;
+}
 
+.property {
   background: rgba(150, 150, 150, 0.25);
   box-shadow: 5px 8px 7px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(13px);
