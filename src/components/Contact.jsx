@@ -38,8 +38,9 @@ const Contact = () => {
           />
 
           <input
+            onClick={(e) => e.preventDefault()}
             type="submit"
-            className="utline-none border-none text-right underline uppercase font-roboto  font-medium text-xl text-[#9DF8E8] my-5"
+            className="utline-none border-none text-right underline uppercase font-roboto  font-medium text-xl text-[#9DF8E8] my-5 cursor-pointer"
             placeholder="Any Comments?"
           />
         </form>

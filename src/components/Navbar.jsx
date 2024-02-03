@@ -18,7 +18,7 @@ const Navbar = () => {
 
       <div className="hidden lg:flex flex-row justify-between items-center">
         {links.map(link => (
-          <Link className="ml-16 text-white font-roboto text-xl font-normal hover:text-[#FFC107] uppercase"
+          <Link className="ml-16 text-white font-roboto text-xl font-normal hover:text-[#FFC107] uppercase cursor-pointer"
             key={link}
             // to={link}
             smooth={false}
