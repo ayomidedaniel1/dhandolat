@@ -15,7 +15,7 @@ const Properties = () => {
           </h1>
         </div>
 
-        <div className="flex flex-col lg:flex-row gap-8 justify-between items-center mt-6 lg:mt-8">
+        <div className="flex flex-col lg:flex-row gap-8 justify-between items-center mt-6 lg:mt-8 relative">
           {landMark.map(i => (
             <div className='property p-1 lg:p-2 pb-10 lg:pb-20' key={i}>
               <div className="relative">
@@ -54,6 +54,8 @@ const Properties = () => {
               </span>
             </div>
           ))}
+
+          <img src={next} alt="." className='absolute -right-10 hidden lg:flex' />
         </div>
       </div>
     </div>
