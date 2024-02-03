@@ -17,6 +17,57 @@ body {
   background-color: #111959;
 }
 
+.glass {
+  background: rgba(150, 150, 150, 0.25);
+  box-shadow: 5px 8px 7px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(13px);
+  border-radius: 29px;
+}
+
+.glass-input {
+  width: 100%;
+
+  background: #ffffff;
+  box-shadow: 5px 8px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.glass-row {
+  flex: 1;
+  height: 46px;
+
+  background: #ffffff;
+  box-shadow: 5px 8px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.slide-bottom {
+  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+    transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+    transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
 .section__padding {
   padding: 4rem 5rem;
 }
