@@ -2,7 +2,7 @@
 const Contact = () => {
   return (
     <div className='section__padding justify-center items-center flex'>
-      <div className="glass px-4 lg:px-20 w-full lg:w-[595px] pb-5 lg:pb-8">
+      <div className="glass px-4 lg:px-20 w-full lg:w-[595px] pb-5 lg:pb-8 mb-12 lg:mb-28">
         <h1 className="font-roboto text-center font-semibold text-3xl lg:text-[48px] lg:leading-[56.25px] text-[#FFC107] uppercase mt-8">
           connect <span className="text-white font-light">with us</span>
         </h1>
