@@ -1,8 +1,15 @@
-import React from 'react';
+import { About, Contact, Footer, Hero, Navbar, Properties } from '../components';
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className='xl:container xl:mx-auto'>
+      <Navbar />
+      <Hero />
+      <About />
+      <Properties />
+      <Contact />
+      <Footer />
+    </div>
   );
 };
 
