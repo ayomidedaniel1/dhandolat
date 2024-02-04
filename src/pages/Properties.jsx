@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import icon from '../assets/icon.svg';
 import property from '../assets/property.svg';
+import { Link } from 'react-router-dom';
 
 const Properties = () => {
   const [filter, setFilter] = useState(false);
@@ -11,7 +12,9 @@ const Properties = () => {
       <div className='xl:container xl:mx-auto pb-10 md:pb-16 mb-8 lg:mb-12'>
         <div className="flex flex-row justify-between items-baseline">
           <div className="flex flex-row justify-start items-center -mt-10 gap-1 lg:gap-5">
-            <img src={icon} alt="img" className='w-6 lg:w-[33.71px] h-6 lg:h-[33.71px]' />
+            <Link to={'/'}>
+              <img src={icon} alt="img" className='w-6 lg:w-[33.71px] h-6 lg:h-[33.71px]' />
+            </Link>
             <h1 className="font-roboto text-center font-normal text-2xl lg:text-[40px] leading-[46.88px] text-[#FFC107] uppercase my-4 md:my-8">
               PROPERTIES
             </h1>
