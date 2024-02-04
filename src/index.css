@@ -126,6 +126,19 @@ body {
   border-radius: 29px;
 }
 
+/* filter component */
+.filter {
+  position: absolute;
+  /* height: 377px; */
+  right: 0;
+  top: 4rem;
+  z-index: 9;
+
+  background: rgba(150, 150, 150, 0.39);
+  backdrop-filter: blur(32.5px);
+  border-radius: 18px;
+}
+
 /* navbar mobile animation */
 
 .slide-bottom {
