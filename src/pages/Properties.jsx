@@ -1,7 +1,9 @@
+import { useState } from 'react';
 import icon from '../assets/icon.svg';
 import property from '../assets/property.svg';
 
 const Properties = () => {
+  const [filter, setFilter] = useState(false);
   const landMark = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
   return (
@@ -15,7 +17,7 @@ const Properties = () => {
             </h1>
           </div>
 
-          <button className="font-roboto text-lg lg:text-2xl font-light text-white underline uppercase">
+          <button className="font-roboto text-lg lg:text-2xl font-light text-white underline uppercase" onClick={() => setFilter(!filter)}>
             filter
           </button>
         </div>
