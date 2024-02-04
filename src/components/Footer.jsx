@@ -6,7 +6,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div className='section__padding bg-[#2C1051]'>
+    <div className='section__padding bg-[#2C1051] mask-bottom'>
       <div className="xl:container xl:mx-auto ">
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center px-2 lg:px-20 pb-14 lg:pb-24 lg:pt-7">
           <h1 className="uppercase text-[#FFC107] font-light text-3xl lg:text-[40px] font-roboto cursor-pointer">logo</h1>

@@ -17,12 +17,43 @@ body {
   background-color: #111959;
 }
 
+.mask-contact {
+  background: url('./assets/mask-top.svg') right top no-repeat,
+    url('./assets/round1.svg') left top no-repeat,
+    url('./assets/round2.svg') 7vw 30vh no-repeat;
+}
+
 .mask-top {
   background-image: url('./assets/mask-top.svg');
   background-position-y: top;
   background-position-x: right;
   background-repeat: no-repeat;
-  /* background-size: 70vw; */
+}
+
+.mask-bottom {
+  background-image: url('./assets/mask-top.svg');
+  background-position-y: bottom;
+  background-position-x: right;
+  background-repeat: no-repeat;
+}
+
+.mask-hero {
+  background: url('./assets/mask-top.svg') right top no-repeat;
+  /* url('./assets/mask-left.svg') left bottom no-repeat; */
+}
+
+.mask-left {
+  background-image: url('./assets/mask-left.svg');
+  background-position-x: left;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+}
+
+.property-right {
+  background-image: url('./assets/mask-left.svg');
+  background-position-x: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
 }
 
 .mask-right {

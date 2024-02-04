@@ -1,13 +1,14 @@
 import icon from '../assets/icon.svg';
 import property from '../assets/property.svg';
 import next from '../assets/next.svg';
+import { Link } from 'react-router-dom';
 
 const Properties = () => {
   const landMark = [1, 2, 3];
 
   return (
-    <div className="section__padding">
-      <div className='xl:container xl:mx-auto pb-10 md:pb-28 mb-14 lg:mb-32'>
+    <div className="section__padding mask-left">
+      <div className='xl:container xl:mx-auto pb-10 md:pb-28 mb-8 lg:mb-12'>
         <div className="flex flex-row justify-center items-center gap-1 lg:gap-5">
           <img src={icon} alt="img" className='w-6 lg:w-[33.71px] h-6 lg:h-[33.71px]' />
           <h1 className="font-roboto text-center font-normal text-3xl lg:text-[40px] leading-[46.88px] text-[#FFC107] uppercase my-4 md:my-8">
@@ -55,7 +56,9 @@ const Properties = () => {
             </div>
           ))}
 
-          <img src={next} alt="." className='absolute -right-10 hidden lg:flex' />
+          <Link to={'/properties'} className='absolute -right-10 hidden lg:flex'>
+            <img src={next} alt="." />
+          </Link>
         </div>
       </div>
     </div>

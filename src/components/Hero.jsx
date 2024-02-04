@@ -6,8 +6,8 @@ import hero4 from '../assets/hero4.svg';
 
 const Hero = () => {
   return (
-    <div className='lg:pl-20 px-6 lg:px-0 pt-10 lg:pt-16 mask-top'>
-      <div className=" mask-right xl:container xl:mx-auto lg:pr-12 pb-20 lg:pb-40 mask-top">
+    <div className='lg:pl-20 px-6 lg:px-0 pt-10 lg:pt-16 mask-hero'>
+      <div className=" mask-right xl:container xl:mx-auto lg:pr-12 pb-20 lg:pb-40">
         <div className="flex flex-col lg:flex-row justify-between items-center">
           <div className="flex flex-col justify-between items-stretch gap-8 lg:gap-20 w-full lg:w-[551px]">
             <div className="flex flex-col hero-top justify-center items-center py-12 lg:py-20">
