@@ -7,11 +7,17 @@ const Properties = () => {
   return (
     <div className="section__padding mask-hero">
       <div className='xl:container xl:mx-auto pb-10 md:pb-16 mb-8 lg:mb-12'>
-        <div className="flex flex-row justify-start items-center -mt-10 gap-1 lg:gap-5">
-          <img src={icon} alt="img" className='w-6 lg:w-[33.71px] h-6 lg:h-[33.71px]' />
-          <h1 className="font-roboto text-center font-normal text-3xl lg:text-[40px] leading-[46.88px] text-[#FFC107] uppercase my-4 md:my-8">
-            PROPERTIES
-          </h1>
+        <div className="flex flex-row justify-between items-baseline">
+          <div className="flex flex-row justify-start items-center -mt-10 gap-1 lg:gap-5">
+            <img src={icon} alt="img" className='w-6 lg:w-[33.71px] h-6 lg:h-[33.71px]' />
+            <h1 className="font-roboto text-center font-normal text-2xl lg:text-[40px] leading-[46.88px] text-[#FFC107] uppercase my-4 md:my-8">
+              PROPERTIES
+            </h1>
+          </div>
+
+          <button className="font-roboto text-lg lg:text-2xl font-light text-white underline uppercase">
+            filter
+          </button>
         </div>
 
         <div className="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-8 lg:gap-y-14 justify-between items-center mt-6 lg:mt-8 relative">
