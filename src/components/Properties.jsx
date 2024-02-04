@@ -10,10 +10,14 @@ const Properties = () => {
     <div className="section__padding mask-left">
       <div className='xl:container xl:mx-auto pb-10 md:pb-28 mb-8 lg:mb-12'>
         <div className="flex flex-row justify-center items-center gap-1 lg:gap-5">
-          <img src={icon} alt="img" className='w-6 lg:w-[33.71px] h-6 lg:h-[33.71px]' />
-          <h1 className="font-roboto text-center font-normal text-3xl lg:text-[40px] leading-[46.88px] text-[#FFC107] uppercase my-4 md:my-8">
-            PROPERTIES
-          </h1>
+          <Link to={'/properties'}>
+            <img src={icon} alt="img" className='w-6 lg:w-[33.71px] h-6 lg:h-[33.71px]' />
+          </Link>
+          <Link to={'/properties'}>
+            < h1 className="font-roboto text-center font-normal text-3xl lg:text-[40px] leading-[46.88px] text-[#FFC107] uppercase my-4 md:my-8">
+              PROPERTIES
+            </h1>
+          </Link>
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8 justify-between items-center mt-6 lg:mt-8 relative">
